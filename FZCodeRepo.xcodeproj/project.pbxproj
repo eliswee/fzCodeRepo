@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E734A1DB53B391D363B4A1B /* libPods-FZCodeRepo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3660DC5B5C1DCCE280BB14 /* libPods-FZCodeRepo.a */; };
+		7AAC8DCF960EE3322E00835A /* libPods-FZCodeRepoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8221FB37AEC8D6F624706E /* libPods-FZCodeRepoUITests.a */; };
+		C0731E2530ABCEDECEF1CC53 /* libPods-FZCodeRepoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88279268E879391014472D2 /* libPods-FZCodeRepoTests.a */; };
+		DD054FEB21212619002C60A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD054FEA21212619002C60A0 /* AppDelegate.m */; };
+		DD054FEE21212619002C60A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD054FED21212619002C60A0 /* ViewController.m */; };
+		DD054FF121212619002C60A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD054FEF21212619002C60A0 /* Main.storyboard */; };
+		DD054FF32121261B002C60A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD054FF22121261B002C60A0 /* Assets.xcassets */; };
+		DD054FF62121261B002C60A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD054FF42121261B002C60A0 /* LaunchScreen.storyboard */; };
+		DD054FF92121261B002C60A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD054FF82121261B002C60A0 /* main.m */; };
+		DD0550032121261B002C60A0 /* FZCodeRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0550022121261B002C60A0 /* FZCodeRepoTests.m */; };
+		DD05500E2121261B002C60A0 /* FZCodeRepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05500D2121261B002C60A0 /* FZCodeRepoUITests.m */; };
+		DD05502421212786002C60A0 /* FZShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05502321212786002C60A0 /* FZShadow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD054FFF2121261B002C60A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD054FDE21212619002C60A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD054FE521212619002C60A0;
+			remoteInfo = FZCodeRepo;
+		};
+		DD05500A2121261B002C60A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD054FDE21212619002C60A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD054FE521212619002C60A0;
+			remoteInfo = FZCodeRepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0066BBF43E91CB38BBF07F4E /* Pods-FZCodeRepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoTests/Pods-FZCodeRepoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8221FB37AEC8D6F624706E /* libPods-FZCodeRepoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZCodeRepoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB5D695ECBDDDF6B96C7166 /* Pods-FZCodeRepoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoUITests/Pods-FZCodeRepoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B3660DC5B5C1DCCE280BB14 /* libPods-FZCodeRepo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZCodeRepo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		938B468B906F89E57A1F3C11 /* Pods-FZCodeRepoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoUITests/Pods-FZCodeRepoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A277813A06EBD961B6356FA /* Pods-FZCodeRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepo/Pods-FZCodeRepo.debug.xcconfig"; sourceTree = "<group>"; };
+		B87484049C69504571F2BE7C /* Pods-FZCodeRepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepo/Pods-FZCodeRepo.release.xcconfig"; sourceTree = "<group>"; };
+		D88279268E879391014472D2 /* libPods-FZCodeRepoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZCodeRepoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD054FE621212619002C60A0 /* FZCodeRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZCodeRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD054FE921212619002C60A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD054FEA21212619002C60A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD054FEC21212619002C60A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD054FED21212619002C60A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD054FF021212619002C60A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD054FF22121261B002C60A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD054FF52121261B002C60A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD054FF72121261B002C60A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD054FF82121261B002C60A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD054FFE2121261B002C60A0 /* FZCodeRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCodeRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0550022121261B002C60A0 /* FZCodeRepoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCodeRepoTests.m; sourceTree = "<group>"; };
+		DD0550042121261B002C60A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0550092121261B002C60A0 /* FZCodeRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCodeRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD05500D2121261B002C60A0 /* FZCodeRepoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCodeRepoUITests.m; sourceTree = "<group>"; };
+		DD05500F2121261B002C60A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD05502221212786002C60A0 /* FZShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZShadow.h; sourceTree = "<group>"; };
+		DD05502321212786002C60A0 /* FZShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZShadow.m; sourceTree = "<group>"; };
+		E5FF2A4D9C01AB47928F4BD7 /* Pods-FZCodeRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoTests/Pods-FZCodeRepoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD054FE321212619002C60A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E734A1DB53B391D363B4A1B /* libPods-FZCodeRepo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD054FFB2121261B002C60A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0731E2530ABCEDECEF1CC53 /* libPods-FZCodeRepoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0550062121261B002C60A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAC8DCF960EE3322E00835A /* libPods-FZCodeRepoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6D4A125B23119C885E75EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A277813A06EBD961B6356FA /* Pods-FZCodeRepo.debug.xcconfig */,
+				B87484049C69504571F2BE7C /* Pods-FZCodeRepo.release.xcconfig */,
+				0066BBF43E91CB38BBF07F4E /* Pods-FZCodeRepoTests.debug.xcconfig */,
+				E5FF2A4D9C01AB47928F4BD7 /* Pods-FZCodeRepoTests.release.xcconfig */,
+				938B468B906F89E57A1F3C11 /* Pods-FZCodeRepoUITests.debug.xcconfig */,
+				4AB5D695ECBDDDF6B96C7166 /* Pods-FZCodeRepoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD6C418D9582C967F49CF974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B3660DC5B5C1DCCE280BB14 /* libPods-FZCodeRepo.a */,
+				D88279268E879391014472D2 /* libPods-FZCodeRepoTests.a */,
+				3F8221FB37AEC8D6F624706E /* libPods-FZCodeRepoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD054FDD21212619002C60A0 = {
+			isa = PBXGroup;
+			children = (
+				DD054FE821212619002C60A0 /* FZCodeRepo */,
+				DD0550012121261B002C60A0 /* FZCodeRepoTests */,
+				DD05500C2121261B002C60A0 /* FZCodeRepoUITests */,
+				DD054FE721212619002C60A0 /* Products */,
+				5F6D4A125B23119C885E75EE /* Pods */,
+				BD6C418D9582C967F49CF974 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD054FE721212619002C60A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD054FE621212619002C60A0 /* FZCodeRepo.app */,
+				DD054FFE2121261B002C60A0 /* FZCodeRepoTests.xctest */,
+				DD0550092121261B002C60A0 /* FZCodeRepoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD054FE821212619002C60A0 /* FZCodeRepo */ = {
+			isa = PBXGroup;
+			children = (
+				DD05501E21212684002C60A0 /* UIPart */,
+				DD054FE921212619002C60A0 /* AppDelegate.h */,
+				DD054FEA21212619002C60A0 /* AppDelegate.m */,
+				DD054FEC21212619002C60A0 /* ViewController.h */,
+				DD054FED21212619002C60A0 /* ViewController.m */,
+				DD054FEF21212619002C60A0 /* Main.storyboard */,
+				DD054FF22121261B002C60A0 /* Assets.xcassets */,
+				DD054FF42121261B002C60A0 /* LaunchScreen.storyboard */,
+				DD054FF72121261B002C60A0 /* Info.plist */,
+				DD054FF82121261B002C60A0 /* main.m */,
+			);
+			path = FZCodeRepo;
+			sourceTree = "<group>";
+		};
+		DD0550012121261B002C60A0 /* FZCodeRepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD0550022121261B002C60A0 /* FZCodeRepoTests.m */,
+				DD0550042121261B002C60A0 /* Info.plist */,
+			);
+			path = FZCodeRepoTests;
+			sourceTree = "<group>";
+		};
+		DD05500C2121261B002C60A0 /* FZCodeRepoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD05500D2121261B002C60A0 /* FZCodeRepoUITests.m */,
+				DD05500F2121261B002C60A0 /* Info.plist */,
+			);
+			path = FZCodeRepoUITests;
+			sourceTree = "<group>";
+		};
+		DD05501E21212684002C60A0 /* UIPart */ = {
+			isa = PBXGroup;
+			children = (
+				DD05502221212786002C60A0 /* FZShadow.h */,
+				DD05502321212786002C60A0 /* FZShadow.m */,
+			);
+			path = UIPart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD054FE521212619002C60A0 /* FZCodeRepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0550122121261B002C60A0 /* Build configuration list for PBXNativeTarget "FZCodeRepo" */;
+			buildPhases = (
+				3AEA517A4BFD53C5CDA2F07A /* [CP] Check Pods Manifest.lock */,
+				DD054FE221212619002C60A0 /* Sources */,
+				DD054FE321212619002C60A0 /* Frameworks */,
+				DD054FE421212619002C60A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZCodeRepo;
+			productName = FZCodeRepo;
+			productReference = DD054FE621212619002C60A0 /* FZCodeRepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD054FFD2121261B002C60A0 /* FZCodeRepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0550152121261B002C60A0 /* Build configuration list for PBXNativeTarget "FZCodeRepoTests" */;
+			buildPhases = (
+				B599B3C5C5BF640E5FF14D99 /* [CP] Check Pods Manifest.lock */,
+				DD054FFA2121261B002C60A0 /* Sources */,
+				DD054FFB2121261B002C60A0 /* Frameworks */,
+				DD054FFC2121261B002C60A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0550002121261B002C60A0 /* PBXTargetDependency */,
+			);
+			name = FZCodeRepoTests;
+			productName = FZCodeRepoTests;
+			productReference = DD054FFE2121261B002C60A0 /* FZCodeRepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD0550082121261B002C60A0 /* FZCodeRepoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0550182121261B002C60A0 /* Build configuration list for PBXNativeTarget "FZCodeRepoUITests" */;
+			buildPhases = (
+				568C5DA83186B205B1E8B7D0 /* [CP] Check Pods Manifest.lock */,
+				DD0550052121261B002C60A0 /* Sources */,
+				DD0550062121261B002C60A0 /* Frameworks */,
+				DD0550072121261B002C60A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD05500B2121261B002C60A0 /* PBXTargetDependency */,
+			);
+			name = FZCodeRepoUITests;
+			productName = FZCodeRepoUITests;
+			productReference = DD0550092121261B002C60A0 /* FZCodeRepoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD054FDE21212619002C60A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FZ;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhfeze;
+				TargetAttributes = {
+					DD054FE521212619002C60A0 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DD054FFD2121261B002C60A0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DD054FE521212619002C60A0;
+					};
+					DD0550082121261B002C60A0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DD054FE521212619002C60A0;
+					};
+				};
+			};
+			buildConfigurationList = DD054FE121212619002C60A0 /* Build configuration list for PBXProject "FZCodeRepo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD054FDD21212619002C60A0;
+			productRefGroup = DD054FE721212619002C60A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD054FE521212619002C60A0 /* FZCodeRepo */,
+				DD054FFD2121261B002C60A0 /* FZCodeRepoTests */,
+				DD0550082121261B002C60A0 /* FZCodeRepoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD054FE421212619002C60A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD054FF62121261B002C60A0 /* LaunchScreen.storyboard in Resources */,
+				DD054FF32121261B002C60A0 /* Assets.xcassets in Resources */,
+				DD054FF121212619002C60A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD054FFC2121261B002C60A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0550072121261B002C60A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEA517A4BFD53C5CDA2F07A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FZCodeRepo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		568C5DA83186B205B1E8B7D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FZCodeRepoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B599B3C5C5BF640E5FF14D99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FZCodeRepoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD054FE221212619002C60A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD054FEE21212619002C60A0 /* ViewController.m in Sources */,
+				DD054FF92121261B002C60A0 /* main.m in Sources */,
+				DD054FEB21212619002C60A0 /* AppDelegate.m in Sources */,
+				DD05502421212786002C60A0 /* FZShadow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD054FFA2121261B002C60A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0550032121261B002C60A0 /* FZCodeRepoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0550052121261B002C60A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD05500E2121261B002C60A0 /* FZCodeRepoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD0550002121261B002C60A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD054FE521212619002C60A0 /* FZCodeRepo */;
+			targetProxy = DD054FFF2121261B002C60A0 /* PBXContainerItemProxy */;
+		};
+		DD05500B2121261B002C60A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD054FE521212619002C60A0 /* FZCodeRepo */;
+			targetProxy = DD05500A2121261B002C60A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD054FEF21212619002C60A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD054FF021212619002C60A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD054FF42121261B002C60A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD054FF52121261B002C60A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD0550102121261B002C60A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD0550112121261B002C60A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0550132121261B002C60A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A277813A06EBD961B6356FA /* Pods-FZCodeRepo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252Q9TY364;
+				INFOPLIST_FILE = FZCodeRepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0550142121261B002C60A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87484049C69504571F2BE7C /* Pods-FZCodeRepo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 252Q9TY364;
+				INFOPLIST_FILE = FZCodeRepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD0550162121261B002C60A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0066BBF43E91CB38BBF07F4E /* Pods-FZCodeRepoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCodeRepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZCodeRepo.app/FZCodeRepo";
+			};
+			name = Debug;
+		};
+		DD0550172121261B002C60A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FF2A4D9C01AB47928F4BD7 /* Pods-FZCodeRepoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCodeRepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZCodeRepo.app/FZCodeRepo";
+			};
+			name = Release;
+		};
+		DD0550192121261B002C60A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938B468B906F89E57A1F3C11 /* Pods-FZCodeRepoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCodeRepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZCodeRepo;
+			};
+			name = Debug;
+		};
+		DD05501A2121261B002C60A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB5D695ECBDDDF6B96C7166 /* Pods-FZCodeRepoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FZCodeRepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZCodeRepo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD054FE121212619002C60A0 /* Build configuration list for PBXProject "FZCodeRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0550102121261B002C60A0 /* Debug */,
+				DD0550112121261B002C60A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0550122121261B002C60A0 /* Build configuration list for PBXNativeTarget "FZCodeRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0550132121261B002C60A0 /* Debug */,
+				DD0550142121261B002C60A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0550152121261B002C60A0 /* Build configuration list for PBXNativeTarget "FZCodeRepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0550162121261B002C60A0 /* Debug */,
+				DD0550172121261B002C60A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0550182121261B002C60A0 /* Build configuration list for PBXNativeTarget "FZCodeRepoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0550192121261B002C60A0 /* Debug */,
+				DD05501A2121261B002C60A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD054FDE21212619002C60A0 /* Project object */;
+}
