@@ -19,6 +19,11 @@
 		DD0550032121261B002C60A0 /* FZCodeRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0550022121261B002C60A0 /* FZCodeRepoTests.m */; };
 		DD05500E2121261B002C60A0 /* FZCodeRepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05500D2121261B002C60A0 /* FZCodeRepoUITests.m */; };
 		DD05502421212786002C60A0 /* FZShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05502321212786002C60A0 /* FZShadow.m */; };
+		DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */; };
+		DD8FB666213FB4910039EE76 /* FZ1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB665213FB4910039EE76 /* FZ1.m */; };
+		DD8FB669213FB4A10039EE76 /* FZ2.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB668213FB4A10039EE76 /* FZ2.m */; };
+		DD8FB66C213FB4C50039EE76 /* FZ2+FZ2_1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB66B213FB4C50039EE76 /* FZ2+FZ2_1.m */; };
+		DD8FB66F213FB5180039EE76 /* FZ1+FZ1_1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB66E213FB5180039EE76 /* FZ1+FZ1_1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,16 @@
 		DD05500F2121261B002C60A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD05502221212786002C60A0 /* FZShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZShadow.h; sourceTree = "<group>"; };
 		DD05502321212786002C60A0 /* FZShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZShadow.m; sourceTree = "<group>"; };
+		DD8FB661213FB3C10039EE76 /* FZRACDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRACDemoController.h; sourceTree = "<group>"; };
+		DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRACDemoController.m; sourceTree = "<group>"; };
+		DD8FB664213FB4910039EE76 /* FZ1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZ1.h; sourceTree = "<group>"; };
+		DD8FB665213FB4910039EE76 /* FZ1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZ1.m; sourceTree = "<group>"; };
+		DD8FB667213FB4A10039EE76 /* FZ2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZ2.h; sourceTree = "<group>"; };
+		DD8FB668213FB4A10039EE76 /* FZ2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZ2.m; sourceTree = "<group>"; };
+		DD8FB66A213FB4C50039EE76 /* FZ2+FZ2_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FZ2+FZ2_1.h"; sourceTree = "<group>"; };
+		DD8FB66B213FB4C50039EE76 /* FZ2+FZ2_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FZ2+FZ2_1.m"; sourceTree = "<group>"; };
+		DD8FB66D213FB5180039EE76 /* FZ1+FZ1_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FZ1+FZ1_1.h"; sourceTree = "<group>"; };
+		DD8FB66E213FB5180039EE76 /* FZ1+FZ1_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FZ1+FZ1_1.m"; sourceTree = "<group>"; };
 		E5FF2A4D9C01AB47928F4BD7 /* Pods-FZCodeRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoTests/Pods-FZCodeRepoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +159,7 @@
 		DD054FE821212619002C60A0 /* FZCodeRepo */ = {
 			isa = PBXGroup;
 			children = (
+				DD8FB65D213FB35F0039EE76 /* rac */,
 				DD05501E21212684002C60A0 /* UIPart */,
 				DD054FE921212619002C60A0 /* AppDelegate.h */,
 				DD054FEA21212619002C60A0 /* AppDelegate.m */,
@@ -183,6 +199,23 @@
 				DD05502321212786002C60A0 /* FZShadow.m */,
 			);
 			path = UIPart;
+			sourceTree = "<group>";
+		};
+		DD8FB65D213FB35F0039EE76 /* rac */ = {
+			isa = PBXGroup;
+			children = (
+				DD8FB661213FB3C10039EE76 /* FZRACDemoController.h */,
+				DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */,
+				DD8FB664213FB4910039EE76 /* FZ1.h */,
+				DD8FB665213FB4910039EE76 /* FZ1.m */,
+				DD8FB66D213FB5180039EE76 /* FZ1+FZ1_1.h */,
+				DD8FB66E213FB5180039EE76 /* FZ1+FZ1_1.m */,
+				DD8FB667213FB4A10039EE76 /* FZ2.h */,
+				DD8FB668213FB4A10039EE76 /* FZ2.m */,
+				DD8FB66A213FB4C50039EE76 /* FZ2+FZ2_1.h */,
+				DD8FB66B213FB4C50039EE76 /* FZ2+FZ2_1.m */,
+			);
+			path = rac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,8 +409,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8FB66F213FB5180039EE76 /* FZ1+FZ1_1.m in Sources */,
+				DD8FB669213FB4A10039EE76 /* FZ2.m in Sources */,
 				DD054FEE21212619002C60A0 /* ViewController.m in Sources */,
+				DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */,
 				DD054FF92121261B002C60A0 /* main.m in Sources */,
+				DD8FB666213FB4910039EE76 /* FZ1.m in Sources */,
+				DD8FB66C213FB4C50039EE76 /* FZ2+FZ2_1.m in Sources */,
 				DD054FEB21212619002C60A0 /* AppDelegate.m in Sources */,
 				DD05502421212786002C60A0 /* FZShadow.m in Sources */,
 			);
@@ -552,7 +590,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 252Q9TY364;
 				INFOPLIST_FILE = FZCodeRepo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -567,7 +608,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 252Q9TY364;
 				INFOPLIST_FILE = FZCodeRepo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -581,7 +625,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FZCodeRepoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -596,7 +644,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FZCodeRepoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -610,7 +662,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FZCodeRepoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,7 +680,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FZCodeRepoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfz.FZCodeRepoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

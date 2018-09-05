@@ -8,7 +8,9 @@ target 'FZCodeRepo' do
   # Pods for FZCodeRepo
 
     pod 'Masonry'
-
+    pod 'ReactiveObjC'
+    
+    
   target 'FZCodeRepoTests' do
     inherit! :search_paths
     # Pods for testing
