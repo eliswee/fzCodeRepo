@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E734A1DB53B391D363B4A1B /* libPods-FZCodeRepo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3660DC5B5C1DCCE280BB14 /* libPods-FZCodeRepo.a */; };
+		6CFD78C721416B3E008953B9 /* FZRACSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD78C521416B3E008953B9 /* FZRACSliderController.m */; };
+		6CFD78C821416B3E008953B9 /* FZRACSliderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD78C621416B3E008953B9 /* FZRACSliderController.xib */; };
 		7AAC8DCF960EE3322E00835A /* libPods-FZCodeRepoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8221FB37AEC8D6F624706E /* libPods-FZCodeRepoUITests.a */; };
 		C0731E2530ABCEDECEF1CC53 /* libPods-FZCodeRepoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D88279268E879391014472D2 /* libPods-FZCodeRepoTests.a */; };
 		DD054FEB21212619002C60A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD054FEA21212619002C60A0 /* AppDelegate.m */; };
@@ -20,10 +22,6 @@
 		DD05500E2121261B002C60A0 /* FZCodeRepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05500D2121261B002C60A0 /* FZCodeRepoUITests.m */; };
 		DD05502421212786002C60A0 /* FZShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05502321212786002C60A0 /* FZShadow.m */; };
 		DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */; };
-		DD8FB666213FB4910039EE76 /* FZ1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB665213FB4910039EE76 /* FZ1.m */; };
-		DD8FB669213FB4A10039EE76 /* FZ2.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB668213FB4A10039EE76 /* FZ2.m */; };
-		DD8FB66C213FB4C50039EE76 /* FZ2+FZ2_1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB66B213FB4C50039EE76 /* FZ2+FZ2_1.m */; };
-		DD8FB66F213FB5180039EE76 /* FZ1+FZ1_1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB66E213FB5180039EE76 /* FZ1+FZ1_1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +45,9 @@
 		0066BBF43E91CB38BBF07F4E /* Pods-FZCodeRepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoTests/Pods-FZCodeRepoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F8221FB37AEC8D6F624706E /* libPods-FZCodeRepoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZCodeRepoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB5D695ECBDDDF6B96C7166 /* Pods-FZCodeRepoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoUITests/Pods-FZCodeRepoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6CFD78C421416B3E008953B9 /* FZRACSliderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRACSliderController.h; sourceTree = "<group>"; };
+		6CFD78C521416B3E008953B9 /* FZRACSliderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRACSliderController.m; sourceTree = "<group>"; };
+		6CFD78C621416B3E008953B9 /* FZRACSliderController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FZRACSliderController.xib; sourceTree = "<group>"; };
 		7B3660DC5B5C1DCCE280BB14 /* libPods-FZCodeRepo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FZCodeRepo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		938B468B906F89E57A1F3C11 /* Pods-FZCodeRepoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoUITests/Pods-FZCodeRepoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A277813A06EBD961B6356FA /* Pods-FZCodeRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepo/Pods-FZCodeRepo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,14 +73,6 @@
 		DD05502321212786002C60A0 /* FZShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZShadow.m; sourceTree = "<group>"; };
 		DD8FB661213FB3C10039EE76 /* FZRACDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRACDemoController.h; sourceTree = "<group>"; };
 		DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRACDemoController.m; sourceTree = "<group>"; };
-		DD8FB664213FB4910039EE76 /* FZ1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZ1.h; sourceTree = "<group>"; };
-		DD8FB665213FB4910039EE76 /* FZ1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZ1.m; sourceTree = "<group>"; };
-		DD8FB667213FB4A10039EE76 /* FZ2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZ2.h; sourceTree = "<group>"; };
-		DD8FB668213FB4A10039EE76 /* FZ2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZ2.m; sourceTree = "<group>"; };
-		DD8FB66A213FB4C50039EE76 /* FZ2+FZ2_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FZ2+FZ2_1.h"; sourceTree = "<group>"; };
-		DD8FB66B213FB4C50039EE76 /* FZ2+FZ2_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FZ2+FZ2_1.m"; sourceTree = "<group>"; };
-		DD8FB66D213FB5180039EE76 /* FZ1+FZ1_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FZ1+FZ1_1.h"; sourceTree = "<group>"; };
-		DD8FB66E213FB5180039EE76 /* FZ1+FZ1_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FZ1+FZ1_1.m"; sourceTree = "<group>"; };
 		E5FF2A4D9C01AB47928F4BD7 /* Pods-FZCodeRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoTests/Pods-FZCodeRepoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,14 +199,9 @@
 			children = (
 				DD8FB661213FB3C10039EE76 /* FZRACDemoController.h */,
 				DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */,
-				DD8FB664213FB4910039EE76 /* FZ1.h */,
-				DD8FB665213FB4910039EE76 /* FZ1.m */,
-				DD8FB66D213FB5180039EE76 /* FZ1+FZ1_1.h */,
-				DD8FB66E213FB5180039EE76 /* FZ1+FZ1_1.m */,
-				DD8FB667213FB4A10039EE76 /* FZ2.h */,
-				DD8FB668213FB4A10039EE76 /* FZ2.m */,
-				DD8FB66A213FB4C50039EE76 /* FZ2+FZ2_1.h */,
-				DD8FB66B213FB4C50039EE76 /* FZ2+FZ2_1.m */,
+				6CFD78C421416B3E008953B9 /* FZRACSliderController.h */,
+				6CFD78C521416B3E008953B9 /* FZRACSliderController.m */,
+				6CFD78C621416B3E008953B9 /* FZRACSliderController.xib */,
 			);
 			path = rac;
 			sourceTree = "<group>";
@@ -328,6 +316,7 @@
 				DD054FF62121261B002C60A0 /* LaunchScreen.storyboard in Resources */,
 				DD054FF32121261B002C60A0 /* Assets.xcassets in Resources */,
 				DD054FF121212619002C60A0 /* Main.storyboard in Resources */,
+				6CFD78C821416B3E008953B9 /* FZRACSliderController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,15 +398,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD8FB66F213FB5180039EE76 /* FZ1+FZ1_1.m in Sources */,
-				DD8FB669213FB4A10039EE76 /* FZ2.m in Sources */,
 				DD054FEE21212619002C60A0 /* ViewController.m in Sources */,
 				DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */,
 				DD054FF92121261B002C60A0 /* main.m in Sources */,
-				DD8FB666213FB4910039EE76 /* FZ1.m in Sources */,
-				DD8FB66C213FB4C50039EE76 /* FZ2+FZ2_1.m in Sources */,
 				DD054FEB21212619002C60A0 /* AppDelegate.m in Sources */,
 				DD05502421212786002C60A0 /* FZShadow.m in Sources */,
+				6CFD78C721416B3E008953B9 /* FZRACSliderController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
