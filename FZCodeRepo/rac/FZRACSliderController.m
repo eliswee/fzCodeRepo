@@ -32,12 +32,20 @@
     
     self.rt.text = self.gt.text = self.bt.text = @"0.5";
     
-    [self blindSlider:_rs label:_rt];
-    [self blindSlider:_gs label:_gt];
-    [self blindSlider:_bs label:_bt];
+    RACSignal *sigR = [self blindSlider:_rs label:_rt];
+    RACSignal *sigG = [self blindSlider:_gs label:_gt];
+    RACSignal *sigB = [self blindSlider:_bs label:_bt];
+    
+    RACSignal *total = [[RACSignal combineLatest:@[sigR, sigG, sigB]] map:^id _Nullable(RACTuple * _Nullable value) {
+        return [UIColor colorWithRed:[value[0] floatValue] green:[value[1] floatValue] blue:[value[2] floatValue] alpha:1];
+    }];
+    RAC(self.vi, backgroundColor) = total;
 }
 
-- (void)blindSlider:(UISlider *)slider label:(UITextField *)textField {
+- (RACSignal *)blindSlider:(UISlider *)slider label:(UITextField *)textField {
+    
+    RACSignal *textSignal = [[textField rac_textSignal] take:1];
+    
     RACChannelTerminal *signalSlider = [slider rac_newValueChannelWithNilValue:nil];
     RACChannelTerminal *signalTextField = [textField rac_newTextChannel];
     
@@ -45,6 +53,8 @@
     [[signalSlider map:^id _Nullable(id  _Nullable value) {
         return [NSString stringWithFormat:@"%.02f", [value floatValue]];
     }] subscribe:signalTextField];
+    
+    return [[signalTextField merge:signalSlider] merge:textSignal]; // merge: 任意更新就sendNext
 }
 
 - (IBAction)back:(UIButton *)sender {

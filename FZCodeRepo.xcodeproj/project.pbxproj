@@ -22,6 +22,7 @@
 		DD05500E2121261B002C60A0 /* FZCodeRepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05500D2121261B002C60A0 /* FZCodeRepoUITests.m */; };
 		DD05502421212786002C60A0 /* FZShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05502321212786002C60A0 /* FZShadow.m */; };
 		DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */; };
+		DDDD2CDA21421A4E00BFF85C /* FZAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD2CD921421A4E00BFF85C /* FZAlgorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		DD05502321212786002C60A0 /* FZShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZShadow.m; sourceTree = "<group>"; };
 		DD8FB661213FB3C10039EE76 /* FZRACDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRACDemoController.h; sourceTree = "<group>"; };
 		DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRACDemoController.m; sourceTree = "<group>"; };
+		DDDD2CD821421A4E00BFF85C /* FZAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAlgorithm.h; sourceTree = "<group>"; };
+		DDDD2CD921421A4E00BFF85C /* FZAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAlgorithm.m; sourceTree = "<group>"; };
 		E5FF2A4D9C01AB47928F4BD7 /* Pods-FZCodeRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoTests/Pods-FZCodeRepoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +155,7 @@
 		DD054FE821212619002C60A0 /* FZCodeRepo */ = {
 			isa = PBXGroup;
 			children = (
+				DDDD2CD721421A3000BFF85C /* algorithm */,
 				DD8FB65D213FB35F0039EE76 /* rac */,
 				DD05501E21212684002C60A0 /* UIPart */,
 				DD054FE921212619002C60A0 /* AppDelegate.h */,
@@ -204,6 +208,15 @@
 				6CFD78C621416B3E008953B9 /* FZRACSliderController.xib */,
 			);
 			path = rac;
+			sourceTree = "<group>";
+		};
+		DDDD2CD721421A3000BFF85C /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD2CD821421A4E00BFF85C /* FZAlgorithm.h */,
+				DDDD2CD921421A4E00BFF85C /* FZAlgorithm.m */,
+			);
+			path = algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDD2CDA21421A4E00BFF85C /* FZAlgorithm.m in Sources */,
 				DD054FEE21212619002C60A0 /* ViewController.m in Sources */,
 				DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */,
 				DD054FF92121261B002C60A0 /* main.m in Sources */,
