@@ -23,6 +23,7 @@
 		DD05502421212786002C60A0 /* FZShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05502321212786002C60A0 /* FZShadow.m */; };
 		DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */; };
 		DDDD2CDA21421A4E00BFF85C /* FZAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD2CD921421A4E00BFF85C /* FZAlgorithm.m */; };
+		DDDD2CDD2147767C00BFF85C /* FZRACCreatDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD2CDC2147767C00BFF85C /* FZRACCreatDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		DD8FB662213FB3C10039EE76 /* FZRACDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRACDemoController.m; sourceTree = "<group>"; };
 		DDDD2CD821421A4E00BFF85C /* FZAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAlgorithm.h; sourceTree = "<group>"; };
 		DDDD2CD921421A4E00BFF85C /* FZAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAlgorithm.m; sourceTree = "<group>"; };
+		DDDD2CDB2147767C00BFF85C /* FZRACCreatDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRACCreatDemoController.h; sourceTree = "<group>"; };
+		DDDD2CDC2147767C00BFF85C /* FZRACCreatDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRACCreatDemoController.m; sourceTree = "<group>"; };
 		E5FF2A4D9C01AB47928F4BD7 /* Pods-FZCodeRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZCodeRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZCodeRepoTests/Pods-FZCodeRepoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +209,8 @@
 				6CFD78C421416B3E008953B9 /* FZRACSliderController.h */,
 				6CFD78C521416B3E008953B9 /* FZRACSliderController.m */,
 				6CFD78C621416B3E008953B9 /* FZRACSliderController.xib */,
+				DDDD2CDB2147767C00BFF85C /* FZRACCreatDemoController.h */,
+				DDDD2CDC2147767C00BFF85C /* FZRACCreatDemoController.m */,
 			);
 			path = rac;
 			sourceTree = "<group>";
@@ -414,6 +419,7 @@
 				DDDD2CDA21421A4E00BFF85C /* FZAlgorithm.m in Sources */,
 				DD054FEE21212619002C60A0 /* ViewController.m in Sources */,
 				DD8FB663213FB3C10039EE76 /* FZRACDemoController.m in Sources */,
+				DDDD2CDD2147767C00BFF85C /* FZRACCreatDemoController.m in Sources */,
 				DD054FF92121261B002C60A0 /* main.m in Sources */,
 				DD054FEB21212619002C60A0 /* AppDelegate.m in Sources */,
 				DD05502421212786002C60A0 /* FZShadow.m in Sources */,

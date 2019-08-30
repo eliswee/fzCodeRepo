@@ -7,7 +7,7 @@
 //
 
 #import "FZRACSliderController.h"
-
+#import "FZRACCreatDemoController.h"
 #import <ReactiveObjC.h>
 
 @interface FZRACSliderController ()
@@ -29,6 +29,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [FZRACCreatDemoController new];
     
     self.rt.text = self.gt.text = self.bt.text = @"0.5";
     
